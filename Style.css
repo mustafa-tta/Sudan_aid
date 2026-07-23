@@ -1,0 +1,1325 @@
+[23/07/2026 10:49] M K: <!DOCTYPE html>
+<html lang="ar" dir="rtl">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>طلب مساعدة - نظام توزيع المساعدات</title>
+
+</head>
+
+
+<body>
+
+
+<!-- رأس الصفحة -->
+
+<header>
+
+    <h1>نظام توزيع المساعدات الإنسانية</h1>
+
+    <nav>
+
+        <ul>
+
+            <li>
+                <a href="index.html">الرئيسية</a>
+            </li>
+
+            <li>
+                <a href="request.html">طلب مساعدة</a>
+            </li>
+
+            <li>
+                <a href="dashboard.html">لوحة الإدارة</a>
+            </li>
+
+            <li>
+                <a href="about.html">من نحن</a>
+            </li>
+
+        </ul>
+
+    </nav>
+
+</header>
+
+
+<hr>
+
+
+<!-- محتوى الصفحة -->
+
+<main>
+
+
+<section>
+
+
+<h2>نموذج طلب المساعدة الإنسانية</h2>
+
+
+<p>
+يرجى تعبئة البيانات التالية لإرسال طلب الاحتياجات الخاصة بالولاية أو مركز الإيواء.
+</p>
+
+
+
+<form>
+
+
+<!-- اسم الولاية -->
+
+<label>
+اسم الولاية:
+</label>
+
+<br>
+
+<select>
+
+<option>اختر الولاية</option>
+
+<option>الجزيرة</option>
+
+<option>الخرطوم</option>
+
+<option>نهر النيل</option>
+
+<option>كسلا</option>
+
+<option>القضارف</option>
+
+<option>النيل الأبيض</option>
+
+<option>شمال دارفور</option>
+
+<option>جنوب دارفور</option>
+
+</select>
+
+
+<br><br>
+
+
+
+<!-- اسم المعسكر -->
+
+<label>
+اسم مركز الإيواء / المعسكر:
+</label>
+
+<br>
+
+<input 
+type="text" 
+placeholder="أدخل اسم المعسكر">
+
+
+<br><br>
+
+
+
+<!-- اسم المسؤول -->
+
+<label>
+اسم مسؤول الطلب:
+</label>
+
+<br>
+
+<input 
+type="text" 
+placeholder="أدخل اسم المسؤول">
+
+
+<br><br>
+
+
+
+<!-- رقم الهاتف -->
+
+<label>
+رقم الهاتف:
+</label>
+
+<br>
+
+<input 
+type="tel" 
+placeholder="مثال: 0912345678">
+
+
+<br><br>
+
+
+
+<!-- نوع الاحتياج -->
+
+<label>
+نوع الاحتياج:
+</label>
+
+<br>
+
+
+<select>
+
+<option>اختر نوع المساعدة</option>
+
+<option>مواد غذائية</option>
+
+<option>أدوية</option>
+
+<option>مياه شرب</option>
+
+<option>خيام وإيواء</option>
+
+<option>ملابس</option>
+
+</select>
+
+
+<br><br>
+
+
+
+<!-- الكمية -->
+
+<label>
+الكمية المطلوبة:
+</label>
+
+<br>
+
+<input 
+type="number" 
+placeholder="أدخل الكمية">
+
+
+<br><br>
+
+
+
+<!-- درجة الأولوية -->
+
+<label>
+درجة الأولوية:
+</label>
+
+<br>
+
+
+<input type="radio" name="priority">
+عالية
+
+
+<input type="radio" name="priority">
+متوسطة
+
+
+<input type="radio" name="priority">
+منخفضة
+
+
+
+<br><br>
+
+
+
+<!-- الملاحظات -->
+
+<label>
+ملاحظات إضافية:
+</label>
+
+<br>
+
+
+<textarea 
+rows="5" 
+cols="40"
+placeholder="اكتب أي تفاصيل إضافية">
+</textarea>
+
+
+<br><br>
+
+
+
+<button type="submit">
+إرسال الطلب
+</button>
+
+
+
+</form>
+
+
+
+</section>
+
+
+</main>
+
+
+<hr>
+
+
+<!-- التذييل -->
+
+<footer>
+
+<p>
+© 2026 نظام توزيع المساعدات الإنسانية
+</p>
+
+</footer>
+
+
+
+</body>
+
+</html>
+[23/07/2026 10:51] M K: <!DOCTYPE html>
+<html lang="ar" dir="rtl">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>لوحة الإدارة - نظام توزيع المساعدات</title>
+
+</head>
+
+
+<body>
+
+
+<!-- رأس الصفحة -->
+
+<header>
+
+    <h1>نظام توزيع المساعدات الإنسانية</h1>
+
+
+    <nav>
+
+        <ul>
+
+            <li>
+                <a href="index.html">الرئيسية</a>
+            </li>
+
+            <li>
+                <a href="request.html">طلب مساعدة</a>
+            </li>
+
+            <li>
+                <a href="dashboard.html">لوحة الإدارة</a>
+            </li>
+
+            <li>
+                <a href="about.html">من نحن</a>
+            </li>
+
+        </ul>
+
+    </nav>
+
+
+</header>
+
+
+<hr>
+
+
+
+<!-- محتوى لوحة الإدارة -->
+
+<main>
+
+
+<section>
+
+
+<h2>
+لوحة متابعة طلبات المساعدات
+</h2>
+
+
+<p>
+من خلال هذه الصفحة يمكن لمسؤول المنظمة متابعة طلبات الولايات وحالة توزيع المساعدات.
+</p>
+
+
+
+<!-- البحث -->
+
+<div>
+
+
+<label>
+البحث عن طلب:
+</label>
+
+
+<input 
+type="search"
+placeholder="اكتب اسم الولاية أو نوع المساعدة">
+
+
+<button>
+بحث
+</button>
+
+
+</div>
+
+
+
+<br>
+
+
+
+<!-- جدول الطلبات -->
+
+
+<table border="1" width="100%">
+
+
+<thead>
+
+
+<tr>
+
+<th>رقم الطلب</th>
+
+<th>الولاية</th>
+
+<th>مركز الإيواء</th>
+
+<th>نوع المساعدة</th>
+
+<th>الكمية</th>
+
+<th>الأولوية</th>
+
+<th>الحالة</th>
+
+</tr>
+
+
+</thead>
+
+
+
+<tbody>
+
+
+<tr>
+
+<td>1</td>
+
+<td>الجزيرة</td>
+
+<td>معسكر السلام</td>
+
+<td>مواد غذائية</td>
+
+<td>500</td>
+
+<td>عالية</td>
+
+<td>قيد المراجعة</td>
+
+</tr>
+
+
+
+<tr>
+
+<td>2</td>
+
+<td>كسلا</td>
+
+<td>مركز الأمل</td>
+
+<td>أدوية</td>
+
+<td>200</td>
+
+<td>متوسطة</td>
+
+<td>تم التوزيع</td>
+
+</tr>
+
+
+
+<tr>
+
+<td>3</td>
+
+<td>النيل الأبيض</td>
+
+<td>معسكر الوحدة</td>
+
+<td>خيام</td>
+
+<td>100</td>
+
+<td>عالية</td>
+
+<td>قيد الانتظار</td>
+
+</tr>
+
+
+
+</tbody>
+
+
+</table>
+
+
+
+<br>
+
+
+
+<!-- إحصائيات -->
+
+<section>
+
+
+<h2>
+ملخص النظام
+</h2>
+
+
+<div>
+
+<h3>2500</h3>
+
+<p>
+إجمالي الطلبات
+</p>
+
+</div>
+
+
+
+<div>
+
+<h3>1900</h3>
+
+<p>
+طلبات مكتملة
+</p>
+
+</div>
+
+
+
+<div>
+
+<h3>600</h3>
+
+<p>
+طلبات قيد المعالجة
+</p>
+
+</div>
+
+
+
+</section>
+
+
+
+</section>
+
+
+
+</main>
+
+
+
+<hr>
+
+
+
+<!-- التذييل -->
+
+
+<footer>
+
+
+<p>
+© 2026 نظام توزيع المساعدات الإنسانية
+</p>
+
+
+</footer>
+
+
+
+</body>
+
+</html>
+[23/07/2026 10:53] M K: <!DOCTYPE html>
+<html lang="ar" dir="rtl">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>من نحن - نظام توزيع المساعدات الإنسانية</title>
+
+</head>
+
+
+<body>
+
+
+<!-- رأس الصفحة -->
+
+<header>
+
+    <h1>نظام توزيع المساعدات الإنسانية</h1>
+
+
+    <nav>
+
+        <ul>
+
+            <li>
+                <a href="index.html">الرئيسية</a>
+            </li>
+
+
+            <li>
+                <a href="request.html">طلب مساعدة</a>
+            </li>
+
+
+            <li>
+                <a href="dashboard.html">لوحة الإدارة</a>
+            </li>
+
+
+            <li>
+                <a href="about.html">من نحن</a>
+            </li>
+
+        </ul>
+
+    </nav>
+
+
+</header>
+
+
+<hr>
+
+
+
+<!-- محتوى الصفحة -->
+
+<main>
+
+
+<section>
+
+
+<h2>
+من نحن
+</h2>
+
+
+<p>
+
+نظام توزيع المساعدات الإنسانية هو منصة إلكترونية تهدف إلى
+تنظيم وإدارة عمليات توزيع الاحتياجات الأساسية للنازحين
+في الولايات السودانية المتأثرة بالأزمات.
+
+</p>
+
+
+</section>
+
+
+
+<hr>
+
+
+
+<section>
+
+
+<h2>
+رؤية المنظمة
+</h2>
+
+
+<p>
+
+الوصول إلى مجتمع يتم فيه توزيع المساعدات الإنسانية بطريقة
+منظمة وعادلة تضمن وصول الدعم إلى الأشخاص الأكثر احتياجًا.
+
+</p>
+
+
+</section>
+
+
+
+<hr>
+
+
+
+<section>
+
+
+<h2>
+رسالة المنظمة
+</h2>
+
+
+<p>
+
+استخدام التكنولوجيا لتسهيل عملية استقبال طلبات المساعدات،
+متابعة التوزيع، وتحسين التنسيق بين المنظمات والولايات.
+
+</p>
+
+
+</section>
+
+
+
+<hr>
+
+
+
+<section>
+
+
+<h2>
+أهداف النظام
+</h2>
+
+
+
+<ul>
+
+
+<li>
+تنظيم طلبات المساعدات الإنسانية.
+</li>
+
+
+<li>
+تسهيل متابعة عمليات التوزيع.
+</li>
+
+
+<li>
+تقليل تكرار توزيع المساعدات لنفس المستفيدين.
+</li>
+
+
+<li>
+توفير قاعدة بيانات للولايات ومراكز الإيواء.
+</li>
+
+
+<li>
+تحسين سرعة الاستجابة للاحتياجات الطارئة.
+</li>
+
+
+</ul>
+
+
+
+</section>
+
+
+
+<hr>
+
+
+
+<section>
+
+
+<h2>
+تواصل معنا
+</h2>
+
+
+<p>
+البريد الإلكتروني:
+info@sads.org
+</p>
+
+
+<p>
+رقم الهاتف:
++249 XXX XXX XXX
+</p>
+
+
+<p>
+الموقع:
+السودان
+</p>
+
+
+</section>
+
+
+
+</main>
+
+
+
+<hr>
+
+
+
+<footer>
+
+
+<p>
+© 2026 نظام توزيع المساعدات الإنسانية - جميع الحقوق محفوظة
+</p>
+
+
+</footer>
+
+
+
+</body>
+
+</html>
+[23/07/2026 10:55] M K: /* إعدادات عامة */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+
+    font-family: "Tahoma", sans-serif;
+    direction: rtl;
+    background-color: #f5f8f6;
+    color: #333;
+    line-height: 1.8;
+
+}
+
+
+/* تنسيق الرأس */
+
+header {
+
+    background-color: #00695c;
+    color: white;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+
+header h1 {
+
+    font-size: 28px;
+
+}
+
+
+/* القائمة */
+
+nav ul {
+
+    list-style: none;
+    display: flex;
+    gap: 20px;
+
+}
+
+
+nav ul li a {
+
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+
+}
+
+
+nav ul li a:hover {
+
+    color: #ffeb3b;
+
+}
+
+
+/* الأقسام */
+
+section {
+
+    padding: 40px;
+    margin: 20px auto;
+    width: 90%;
+    background-color: white;
+    border-radius: 10px;
+
+}
+
+
+/* العناوين */
+
+h2 {
+
+    color: #00695c;
+    margin-bottom: 20px;
+    text-align: center;
+
+}
+
+
+/* الفقرات */
+
+p {
+
+    font-size: 17px;
+
+}
+/* القسم الرئيسي Hero */
+
+main section:first-child {
+
+    text-align: center;
+    padding: 70px 30px;
+    background-color: #e0f2f1;
+
+}
+
+
+main section:first-child h2 {
+
+    font-size: 35px;
+    color: #004d40;
+
+}
+
+
+main section:first-child p {
+
+    max-width: 800px;
+    margin: 20px auto;
+
+}
+
+
+/* زر طلب المساعدة */
+
+button {
+
+    background-color: #00695c;
+    color: white;
+    border: none;
+    padding: 12px 30px;
+    font-size: 18px;
+    border-radius: 8px;
+    cursor: pointer;
+
+}
+
+
+button:hover {
+
+    background-color: #004d40;
+
+}
+
+
+/* بطاقات الإحصائيات */
+
+section:nth-of-type(2) {
+
+    display: flex;
+    justify-content: space-around;
+    gap: 20px;
+    flex-wrap: wrap;
+
+}
+
+
+section:nth-of-type(2) div {
+
+    background-color: #ffffff;
+    width: 200px;
+    padding: 25px;
+    text-align: center;
+    border-radius: 12px;
+    box-shadow: 0 4px 10px #ccc;
+
+}
+
+
+section:nth-of-type(2) h3 {
+
+    font-size: 35px;
+    color: #00695c;
+
+}
+
+
+/* الخدمات */
+
+section:nth-of-type(3) {
+
+    display: flex;
+    justify-content: space-around;
+    gap: 20px;
+    flex-wrap: wrap;
+
+}
+
+
+article {
+
+    width: 30%;
+    min-width: 250px;
+    background-color: #ffffff;
+    padding: 25px;
+    text-align: center;
+    border-radius: 12px;
+    box-shadow: 0 4px 10px #ccc;
+
+}
+
+
+article h3 {
+
+    color: #00695c;
+    margin-bottom: 15px;
+
+}
+
+
+/* Footer */
+
+footer {
+
+    background-color: #004d40;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    margin-top: 30px;
+
+}
+/* تنسيق نموذج طلب المساعدة */
+
+form {
+
+    width: 80%;
+    margin: auto;
+    background-color: #ffffff;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px #ccc;
+
+}
+
+
+form label {
+
+    display: block;
+    margin-bottom: 8px;
+    color: #00695c;
+    font-size: 18px;
+    font-weight: bold;
+
+}
+
+
+
+input,
+select,
+textarea {
+
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    font-size: 16px;
+
+}
+
+
+
+input:focus,
+select:focus,
+textarea:focus {
+
+    outline: none;
+    border-color: #00695c;
+
+}
+
+
+/* خيارات الأولوية */
+
+input[type="radio"] {
+
+    width: auto;
+    margin-left: 10px;
+
+}
+
+
+/* زر إرسال الطلب */
+
+form button {
+
+    width: 100%;
+    background-color: #00897b;
+
+}
+
+
+form button:hover {
+
+    background-color: #004d40;
+
+}
+/* تصميم لوحة الإدارة */
+
+
+/* مربع البحث */
+
+main input[type="search"] {
+
+    width: 60%;
+    display: inline-block;
+    margin-left: 10px;
+
+}
+
+
+main button {
+
+    padding: 10px 25px;
+
+}
+
+
+/* تصميم الجدول */
+
+table {
+
+    width: 95%;
+    margin: 30px auto;
+    border-collapse: collapse;
+    background-color: white;
+    box-shadow: 0 4px 12px #ccc;
+
+}
+
+
+table th {
+
+    background-color: #00695c;
+    color: white;
+    padding: 15px;
+    font-size: 17px;
+
+}
+
+
+table td {
+
+    padding: 12px;
+    text-align: center;
+    border-bottom: 1px solid #ddd;
+
+}
+
+
+table tr:hover {
+
+    background-color: #e0f2f1;
+
+}
+
+
+/* قسم الإحصائيات في لوحة الإدارة */
+
+main section section {
+
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+
+}
+
+
+main section section div {
+
+    background-color: white;
+    width: 220px;
+    padding: 25px;
+    text-align: center;
+    border-radius: 12px;
+    box-shadow: 0 4px 10px #ccc;
+
+}
+
+
+main section section h3 {
+
+    font-size: 35px;
+    color: #00695c;
+
+}
+
+/* تصميم صفحة من نحن */
+
+main section ul {
+
+    width: 80%;
+    margin: auto;
+    padding: 20px;
+
+}
+
+
+main section ul li {
+
+    background-color: white;
+    margin: 10px;
+    padding: 15px;
+    border-radius: 8px;
+    list-style-position: inside;
+    box-shadow: 0 3px 8px #ddd;
+
+}
+
+
+/* أقسام التواصل */
+
+main section p {
+
+    text-align: center;
+
+}
+
+
+/* تصميم الصور */
+
+img {
+
+    border-radius: 50%;
+
+}
+
+
+/* Responsive للموبايل */
+
+@media (max-width: 768px) {
+
+
+    header {
+
+        flex-direction: column;
+        text-align: center;
+
+    }
+
+
+    nav ul {
+
+        flex-direction: column;
+        margin-top: 20px;
+
+    }
+
+
+    section {
+
+        width: 95%;
+        padding: 20px;
+
+    }
+
+
+    section:nth-of-type(2),
+    section:nth-of-type(3) {
+
+        flex-direction: column;
+        align-items: center;
+
+    }
+
+
+    article {
+
+        width: 90%;
+
+    }
+
+
+    form {
+
+        width: 95%;
+
+    }
+
+
+    table {
+
+        font-size: 12px;
+        overflow-x: auto;
+
+    }
+
+
+    main section section div {
+
+        width: 90%;
+
+    }
+
+
+    h1 {
+
+        font-size: 22px;
+
+    }
+
+
+    h2 {
+
+        font-size: 25px;
+
+    }
+
+
+}
