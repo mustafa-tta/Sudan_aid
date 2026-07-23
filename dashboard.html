@@ -1,0 +1,305 @@
+
+ <!DOCTYPE html>
+<html lang="ar" dir="rtl">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>لوحة الإدارة - نظام توزيع المساعدات</title>
+
+</head>
+
+
+<body>
+
+<script src="js/script.js"></script>
+<!-- رأس الصفحة -->
+
+<header>
+
+    <h1>نظام توزيع المساعدات الإنسانية</h1>
+
+
+    <nav>
+
+        <ul>
+
+            <li>
+                <a href="index.html">الرئيسية</a>
+            </li>
+
+            <li>
+                <a href="request.html">طلب مساعدة</a>
+            </li>
+
+            <li>
+                <a href="dashboard.html">لوحة الإدارة</a>
+            </li>
+
+            <li>
+                <a href="about.html">من نحن</a>
+            </li>
+
+        </ul>
+
+    </nav>
+
+
+</header>
+
+
+<hr>
+
+
+
+<!-- محتوى لوحة الإدارة -->
+
+<main>
+
+
+<section>
+
+
+<h2>
+لوحة متابعة طلبات المساعدات
+</h2>
+
+
+<p>
+من خلال هذه الصفحة يمكن لمسؤول المنظمة متابعة طلبات الولايات وحالة توزيع المساعدات.
+</p>
+
+
+
+<!-- البحث -->
+
+<div>
+
+
+<label>
+البحث عن طلب:
+</label>
+
+
+<input 
+type="search"
+placeholder="اكتب اسم الولاية أو نوع المساعدة">
+
+
+<button>
+بحث
+</button>
+
+
+</div>
+
+
+
+<br>
+
+
+
+<!-- جدول الطلبات -->
+<div>
+
+<label>حالة الطلب:</label>
+
+<select id="statusFilter">
+
+<option value="all">كل الطلبات</option>
+
+<option value="قيد المراجعة">قيد المراجعة</option>
+
+<option value="تم التوزيع">تم التوزيع</option>
+
+<option value="قيد الانتظار">قيد الانتظار</option>
+
+</select>
+
+</div>
+
+<table border="1" width="100%">
+
+
+<thead>
+
+
+<tr>
+
+<th>رقم الطلب</th>
+
+<th>الولاية</th>
+
+<th>مركز الإيواء</th>
+
+<th>نوع المساعدة</th>
+
+<th>الكمية</th>
+
+<th>الأولوية</th>
+
+<th>الحالة</th>
+
+</tr>
+
+
+</thead>
+
+
+
+<tbody>
+
+
+<tr>
+
+<td>1</td>
+
+<td>الجزيرة</td>
+
+<td>معسكر السلام</td>
+
+<td>مواد غذائية</td>
+
+<td>500</td>
+
+<td>عالية</td>
+
+<td>قيد المراجعة</td>
+
+</tr>
+
+
+
+<tr>
+
+<td>2</td>
+
+<td>كسلا</td>
+
+<td>مركز الأمل</td>
+
+<td>أدوية</td>
+
+<td>200</td>
+
+<td>متوسطة</td>
+
+<td>تم التوزيع</td>
+
+</tr>
+
+
+
+<tr>
+
+<td>3</td>
+
+<td>النيل الأبيض</td>
+
+<td>معسكر الوحدة</td>
+
+<td>خيام</td>
+
+<td>100</td>
+
+<td>عالية</td>
+
+<td>قيد الانتظار</td>
+
+</tr>
+
+
+
+</tbody>
+
+
+</table>
+
+
+
+<br>
+
+
+
+<!-- إحصائيات -->
+
+<section>
+
+
+<h2>
+ملخص النظام
+</h2>
+
+
+<div>
+
+<h3>2500</h3>
+
+<p>
+إجمالي الطلبات
+</p>
+
+</div>
+
+
+
+<div>
+
+<h3>1900</h3>
+
+<p>
+طلبات مكتملة
+</p>
+
+</div>
+
+
+
+<div>
+
+<h3>600</h3>
+
+<p>
+طلبات قيد المعالجة
+</p>
+
+</div>
+
+
+
+</section>
+
+
+
+</section>
+
+
+
+</main>
+
+
+
+<hr>
+
+
+
+<!-- التذييل -->
+
+
+<footer>
+
+
+<p>
+© 2026 نظام توزيع المساعدات الإنسانية
+</p>
+
+
+</footer>
+
+
+
+</body>
+
+</html>

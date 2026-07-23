@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+
+<head>
+    
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <link rel="stylesheet" href="css/style.css">
+    <title>طلب مساعدة - نظام توزيع المساعدات</title>
+
+</head>
+
+
+<body>
+
+<script src="js/script.js"></script>
+<!-- رأس الصفحة -->
+
+<header>
+
+    <h1>نظام توزيع المساعدات الإنسانية</h1>
+
+    <nav>
+
+        <ul>
+
+            <li>
+                <a href="index.html">الرئيسية</a>
+            </li>
+
+            <li>
+                <a href="request.html">طلب مساعدة</a>
+            </li>
+
+            <li>
+                <a href="dashboard.html">لوحة الإدارة</a>
+            </li>
+
+            <li>
+                <a href="about.html">من نحن</a>
+            </li>
+
+        </ul>
+
+    </nav>
+
+</header>
+
+
+<hr>
+
+
+<!-- محتوى الصفحة -->
+
+<main>
+
+
+<section>
+
+
+<h2>نموذج طلب المساعدة الإنسانية</h2>
+
+
+<p>
+يرجى تعبئة البيانات التالية لإرسال طلب الاحتياجات الخاصة بالولاية أو مركز الإيواء.
+</p>
+
+
+
+<form action="php/sava_request.php" method="POST">
+
+
+<!-- اسم الولاية -->
+
+<label>
+اسم الولاية:
+</label>
+
+<br>
+
+<select name="state">
+
+<option>اختر الولاية</option>
+
+<option>الجزيرة</option>
+
+<option>الخرطوم</option>
+
+<option>نهر النيل</option>
+
+<option>كسلا</option>
+
+<option>القضارف</option>
+
+<option>النيل الأبيض</option>
+
+<option>شمال دارفور</option>
+
+<option>جنوب دارفور</option>
+
+</select>
+
+
+<br><br>
+
+
+
+<!-- اسم المعسكر -->
+
+<label>
+اسم مركز الإيواء / المعسكر:
+</label>
+
+<br>
+
+<input 
+type="text"
+name="camp_name" 
+placeholder="أدخل اسم المعسكر">
+
+
+<br><br>
+
+
+
+<!-- اسم المسؤول -->
+
+<label>
+اسم مسؤول الطلب:
+</label>
+
+<br>
+
+<input 
+type="text" 
+name= "manager_name"
+placeholder="أدخل اسم المسؤول">
+
+
+<br><br>
+
+
+
+<!-- رقم الهاتف -->
+
+<label>
+رقم الهاتف:
+</label>
+
+<br>
+
+<input 
+type="tel" 
+name="phone"
+placeholder="مثال: 0912345678">
+
+
+<br><br>
+
+
+
+<!-- نوع الاحتياج -->
+
+<label>
+نوع الاحتياج:
+</label>
+
+<br>
+
+
+<select name="aid_type">
+
+<option>اختر نوع المساعدة</option>
+
+<option>مواد غذائية</option>
+
+<option>أدوية</option>
+
+<option>مياه شرب</option>
+
+<option>خيام وإيواء</option>
+
+<option>ملابس</option>
+
+</select>
+
+
+<br><br>
+
+
+
+<!-- الكمية -->
+
+<label>
+الكمية المطلوبة:
+</label>
+
+<br>
+
+<input 
+type="number" 
+name="quantity"
+placeholder="أدخل الكمية">
+
+
+<br><br>
+
+
+
+<!-- درجة الأولوية -->
+
+<label>
+درجة الأولوية:
+</label>
+
+<br>
+
+
+<input type="radio" name="priority" value="عالية">
+عالية
+
+
+<input type="radio" name="priority" value="متوسطة">
+متوسطة
+
+
+<input type="radio" name="priority" value="منخضة">
+منخفضة
+
+
+
+<br><br>
+
+
+
+<!-- الملاحظات -->
+
+<label>
+ملاحظات إضافية:
+</label>
+
+<br>
+
+
+<textarea 
+rows="5" 
+name="notes"
+cols="40"
+placeholder="اكتب أي تفاصيل إضافية">
+</textarea>
+
+
+<br><br>
+
+
+
+<button type="submit">
+إرسال الطلب
+</button>
+
+
+
+</form>
+
+
+
+</section>
+
+
+</main>
+
+
+<hr>
+
+
+<!-- التذييل -->
+
+<footer>
+
+<p>
+© 2026 نظام توزيع المساعدات الإنسانية
+</p>
+
+</footer>
+
+
+
+</body>
+
+</html>
