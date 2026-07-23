@@ -260,6 +260,113 @@ placeholder="اكتب أي تفاصيل إضافية">
 
 
 </section>
+/* Mobile Responsive */
+
+@media (max-width: 768px){
+
+
+body{
+    overflow-x: hidden;
+}
+
+
+/* الهيدر */
+
+header{
+
+    flex-direction: column;
+    padding: 15px;
+
+}
+
+
+header h1{
+
+    font-size: 22px;
+
+}
+
+
+/* القائمة */
+
+nav ul{
+
+    flex-direction: column;
+    text-align: center;
+    gap: 10px;
+
+}
+
+
+/* الأقسام */
+
+section{
+
+    width: 95%;
+    padding: 20px;
+
+}
+
+
+/* البطل الرئيسي */
+
+main section:first-child h2{
+
+    font-size: 25px;
+
+}
+
+
+/* الكروت */
+
+section:nth-of-type(2),
+section:nth-of-type(3){
+
+    flex-direction: column;
+    align-items: center;
+
+}
+
+
+section:nth-of-type(2) div,
+article{
+
+    width: 90%;
+
+}
+
+
+/* الفورم */
+
+form{
+
+    width: 100%;
+    padding: 20px;
+
+}
+
+
+input,
+select,
+textarea{
+
+    width: 100%;
+
+}
+
+
+/* الجدول */
+
+table{
+
+    display: block;
+    overflow-x: auto;
+    white-space: nowrap;
+
+}
+
+
+}
 
 
 </main>
